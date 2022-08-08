@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "../hass-skill"
+		},
+		{
+			"path": "../../../Desktop/hass-skill"
+		},
+		{
+			"path": "../../../../../opt/mycroft/skills/skill-iot-control"
+		},
+		{
+			"path": "../../mycroft/skills"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"math.h": "c"
+		}
+	}
+}
