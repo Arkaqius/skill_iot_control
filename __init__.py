@@ -337,6 +337,13 @@ class SkillIoTControl(MycroftSkill):
             # extract_number may return False:
             if None == value:   
                 value = self._get_value_from_keywords(utterence)
+        if (thing == Thing.WARM_WATER and 'TO' in data):
+            if 'economic' in utterence:
+                value = 1
+            elif 'comfort' in utterence:
+                value = 2 
+            elif 'tube' in utterence:
+                value = 3   
         return value
 
     def _handle_iot_request(self, message: Message):
